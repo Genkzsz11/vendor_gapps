@@ -57,16 +57,15 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     LocationHistoryPrebuilt \
     MarkupGoogle \
-    NexusWallpapersStubPrebuilt2020_midyear \
-    Ornament \
     Photos \
-    PixelThemesStub2020_midyear \
+    PixelThemesStub \
+    PixelWallpapers2020 \
     PrebuiltBugle \
     PrebuiltDeskClockGoogle \
     PrebuiltGmail \
     SoundPickerPrebuilt \
     TrichromeLibrary-Stub \
-    WallpapersBReel2020a \
+    WallpapersBReel2020 \
     WebViewGoogle-Stub \
     arcore \
     talkback \
@@ -75,11 +74,11 @@ PRODUCT_PACKAGES += \
     AndroidMigratePrebuilt \
     ConfigUpdater \
     ConnMetrics \
-    DevicePersonalizationPrebuiltPixel4 \
+    DevicePersonalizationPrebuiltPixel2020 \
     FilesPrebuilt \
     GoogleDialer \
-    HotwordEnrollmentOKGoogleRT5514 \
-    HotwordEnrollmentXGoogleRT5514 \
+    HotwordEnrollmentOKGoogleRT5514P \
+    HotwordEnrollmentXGoogleRT5514P \
     NovaBugreportWrapper \
     OTAConfigPrebuilt \
     PartnerSetupPrebuilt \
@@ -98,5 +97,5 @@ PRODUCT_PACKAGES += \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
-    WallpaperPickerGooglePrebuilt \
+    WallpaperPickerGoogleRelease \
     com.google.android.dialer.support

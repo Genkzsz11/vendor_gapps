@@ -50,11 +50,26 @@ PRODUCT_PACKAGES += \
     IconPackFilledPixelThemePicker \
     IconPackFilledSettings \
     IconPackFilledSystemUI \
+    IconPackKaiAndroid \
+    IconPackKaiLauncher \
+    IconPackKaiSettings \
+    IconPackKaiSystemUI \
+    IconPackKaiThemePicker \
     IconPackRoundedAndroid \
     IconPackRoundedPixelLauncher \
     IconPackRoundedPixelThemePicker \
     IconPackRoundedSettings \
     IconPackRoundedSystemUI \
+    IconPackSamAndroid \
+    IconPackSamLauncher \
+    IconPackSamSettings \
+    IconPackSamSystemUI \
+    IconPackSamThemePicker \
+    IconPackVictorAndroid \
+    IconPackVictorLauncher \
+    IconPackVictorSettings \
+    IconPackVictorSystemUI \
+    IconPackVictorThemePicker \
     IconShapePebble \
     IconShapeRoundedRect \
     IconShapeSquircle \
