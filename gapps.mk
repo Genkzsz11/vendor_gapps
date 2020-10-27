@@ -14,9 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_COPY_FILES += \
-    $(shell tar -zxf vendor/gapps/common/proprietary/product/priv-app/Velvet/Velvet.apk.tar.gz -C vendor/gapps/common/proprietary/product/priv-app/Velvet/)
-
 LOCAL_DEVICE := $(lastword $(subst _, ,$(TARGET_PRODUCT)))
 
 # Include product overlays
@@ -28,44 +25,8 @@ PRODUCT_PACKAGES += \
     PixelLauncherOverlay
 
 PRODUCT_PACKAGES += \
-    PixelConfigOverlay2018 \
-    PixelConfigOverlay2019 \
-    PixelConfigOverlay2019Midyear \
-    PixelDocumentsUIGoogleOverlay \
     PixelSetupWizardOverlay \
     PixelSetupWizardOverlay2019
-
-PRODUCT_PACKAGES += \
-    FilesOverlay \
-    FontArbutusSource \
-    FontArvoLato \
-    FontRubikRubik \
-    IconPackCircularAndroid \
-    IconPackCircularPixelLauncher \
-    IconPackCircularPixelThemePicker \
-    IconPackCircularSettings \
-    IconPackCircularSystemUI \
-    IconPackFilledAndroid \
-    IconPackFilledPixelLauncher \
-    IconPackFilledPixelThemePicker \
-    IconPackFilledSettings \
-    IconPackFilledSystemUI \
-    IconPackRoundedAndroid \
-    IconPackRoundedPixelLauncher \
-    IconPackRoundedPixelThemePicker \
-    IconPackRoundedSettings \
-    IconPackRoundedSystemUI \
-    IconShapePebble \
-    IconShapeRoundedRect \
-    IconShapeSquircle \
-    IconShapeTaperedRect \
-    IconShapeTeardrop \
-    IconShapeVessel \
-    NavigationBarMode3Button \
-    NavigationBarModeGestural \
-    NavigationBarModeGesturalExtraWideBack \
-    NavigationBarModeGesturalNarrowBack \
-    NavigationBarModeGesturalWideBack
 
 # Permissions
 PRODUCT_COPY_FILES += \

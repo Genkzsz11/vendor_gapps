@@ -28,9 +28,6 @@
     <!-- The name of the package that will hold the dialer role by default. -->
     <string name="config_defaultDialer" translatable="false">com.google.android.dialer</string>
 
-    <!-- The name of the package that will hold the assistant role by default. -->
-    <string name="config_defaultAssistant">com.google.android.googlequicksearchbox</string>
-
     <!-- Package name(s) containing location provider support.
          These packages can contain services implementing location providers,
          such as the Geocode Provider, Network Location Provider, and
@@ -140,12 +137,6 @@
           systemui implementation: com.android.systemui/.recents.RecentsActivity -->
     <string name="config_recentsComponentName">com.google.android.apps.nexuslauncher/com.android.quickstep.RecentsActivity</string>
     <string name="config_secondaryHomeComponent">com.google.android.apps.nexuslauncher/com.android.launcher3.SecondaryDisplayLauncher</string>
-
-    <!-- Wallpaper cropper package. Used as the default cropper if the active launcher doesn't
-         handle wallpaper cropping. -->
-    <string name="config_wallpaperCropperPackage" translatable="false">com.google.android.apps.wallpaper</string>
-
-    <string name="default_wallpaper_component">com.breel.wallpapers20a/com.breel.wallpapers20a.gradient.wallpaper.GradientWallpaper</string>
 
     <string name="config_defaultContentCaptureService">com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiContentCaptureService</string>
 

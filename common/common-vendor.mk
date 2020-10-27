@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/gapps/common/proprietary/product/app/TrichromeLibrary/TrichromeLibrary.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/TrichromeLibrary/TrichromeLibrary.apk.gz \
     vendor/gapps/common/proprietary/product/app/WebViewGoogle/WebViewGoogle.apk.gz:$(TARGET_COPY_OUT_PRODUCT)/app/WebViewGoogle/WebViewGoogle.apk.gz \
     vendor/gapps/common/proprietary/product/etc/default-permissions/default-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/default-permissions/default-permissions.xml \
-    vendor/gapps/common/proprietary/product/etc/firmware/music_detector.descriptor:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.descriptor \
-    vendor/gapps/common/proprietary/product/etc/firmware/music_detector.sound_model:$(TARGET_COPY_OUT_PRODUCT)/etc/firmware/music_detector.sound_model \
     vendor/gapps/common/proprietary/product/etc/permissions/com.google.android.dialer.support.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.google.android.dialer.support.xml \
     vendor/gapps/common/proprietary/product/etc/permissions/privapp-permissions-google-p.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-google-p.xml \
     vendor/gapps/common/proprietary/product/etc/permissions/split-permissions-google.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/split-permissions-google.xml \
@@ -47,7 +45,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     GoogleExtShared \
     GooglePrintRecommendationService \
-    DocumentsUIGoogle \
     CalculatorGooglePrebuilt \
     CalendarGooglePrebuilt \
     Chrome-Stub \
@@ -57,46 +54,28 @@ PRODUCT_PACKAGES += \
     LatinIMEGooglePrebuilt \
     LocationHistoryPrebuilt \
     MarkupGoogle \
-    NexusWallpapersStubPrebuilt2020_midyear \
     Ornament \
     Photos \
-    PixelThemesStub2020_midyear \
     PrebuiltBugle \
     PrebuiltDeskClockGoogle \
     PrebuiltGmail \
-    SoundPickerPrebuilt \
     TrichromeLibrary-Stub \
-    WallpapersBReel2020a \
     WebViewGoogle-Stub \
     arcore \
-    talkback \
-    AmbientSensePrebuilt \
     AndroidAutoStubPrebuilt \
     AndroidMigratePrebuilt \
-    ConfigUpdater \
-    ConnMetrics \
     DevicePersonalizationPrebuiltPixel4 \
-    FilesPrebuilt \
     GoogleDialer \
-    HotwordEnrollmentOKGoogleRT5514 \
-    HotwordEnrollmentXGoogleRT5514 \
-    NovaBugreportWrapper \
-    OTAConfigPrebuilt \
     PartnerSetupPrebuilt \
     Phonesky \
-    PixelLiveWallpaperPrebuilt \
     PrebuiltGmsCore \
     AndroidPlatformServices \
-    RecorderPrebuilt \
     SetupWizardPrebuilt \
     TurboPrebuilt \
-    Velvet \
     WellbeingPrebuilt \
     CarrierSetup \
-    GoogleFeedback \
     GoogleOneTimeInitializer \
     GoogleServicesFramework \
     NexusLauncherRelease \
     PixelSetupWizard \
-    WallpaperPickerGooglePrebuilt \
     com.google.android.dialer.support
